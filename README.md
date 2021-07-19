@@ -29,7 +29,7 @@ Se elimino index.php en:
 	public $indexPage = '';
 	Esto se hace para eliminar el index que se ve en la url es opcional
 
-## Instalar Phpmailer 6.5 en codeigniter 4 funciona también en hosting Godaddy
+## Instalar Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
 
 debes
 

@@ -51,6 +51,16 @@ La llamarias en tu controlador de esta manera
 
 	use App\Libraries\PHPMailer_Lib;
 
+Lo unico que tienes que cambiar en el archivo app\Libraries\**PHPMailer_Lib.php** seria
+
+	//Server settings sirve tambien  para Servidor Godaddy
+            $mail->isSMTP();                                                       
+            $mail->Host       = 'url_cpanel.secureserver.net';      //tomado de la url del cpanel 
+            $mail->SMTPAuth   = false;   
+	    
+	    Esto lo consigue en el caso de Godaddy que es donde da mas problemas, de la url
+	    
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?

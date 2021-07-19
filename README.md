@@ -33,7 +33,7 @@ Se elimino index.php en:
 
 Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se deben colocar en la carpeta de proyecto 
 
-	**app\ThirdParty\PHPMailer**
+	app\ThirdParty\PHPMailer
 
 # CodeIgniter 4 Application Starter
 

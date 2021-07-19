@@ -72,7 +72,11 @@ Lo único que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.ph
  puedes ver más en este enlace
  
 https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/
-	    
+
+## Ver funcionando el Ejemplo
+
+http://tucosmos.com/base-proyecto-cod/
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?

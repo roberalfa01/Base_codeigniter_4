@@ -14,7 +14,7 @@ public $default = [
 		'DBDriver' => 'MySQLi',
 		
 
-##Explicación  breve de lo que se modifico a un proyecto original creado con composer##
+##Explicación  breve de lo que se modifico a un proyecto original creado con composer
 
 Los archivos originales de la carpeta public estan copiados en el directorio raíz del proyecto.
 
@@ -31,7 +31,7 @@ Se elimino index.php en:
 	public $indexPage = '';
 	Esto se hace para eliminar el index que se ve en la url es opcional
 
-## Instalar Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
+##Instalar Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
 
 Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se deben colocar en la carpeta de proyecto 
 

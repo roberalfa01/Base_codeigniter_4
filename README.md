@@ -60,7 +60,7 @@ Lo llamarías en tu controlador de esta manera
 
 Lo único que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php** además de los correos tuyos es:
 
-	//Server settings sirve tambien  para Servidor Godaddy
+	//Server settings sirve también  para Servidor Godaddy
             $mail->isSMTP();                                                       
             $mail->Host       = 'a2xxxxxxxxx.prod.iad2.secureserver.net';      //tomado de la url de tu cpanel en el caso de godaddy 
             $mail->SMTPAuth   = false;   

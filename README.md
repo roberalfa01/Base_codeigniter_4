@@ -62,8 +62,9 @@ Lo unico que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php
 	   https://a2xxxxxxxxx.prod.iad2.secureserver.net:99999/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	   en este caso el host seria a2xxxxxxxxx.prod.iad2.secureserver.net
 	   
-	   puedes ver mas en este enlace
-	   (https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/)
+ puedes ver mas en este enlace
+ 
+(https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/)
 	    
 
 # CodeIgniter 4 Application Starter

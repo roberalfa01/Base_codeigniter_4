@@ -39,7 +39,7 @@ Se elimino index.php en:
 
 ### Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
 
-Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se colocaron en la carpeta de proyecto 
+Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se colocaron en la carpeta del proyecto 
 
 	app\ThirdParty\PHPMailer
 

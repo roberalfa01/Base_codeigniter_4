@@ -19,7 +19,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
-## Explicación  breve de lo que se modifico a un proyecto original creado con composer
+## Explicación  breve de lo que se modificó a un proyecto original creado con composer
 
 Los archivos originales de la carpeta public estan copiados en el directorio raíz del proyecto.
 

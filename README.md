@@ -26,6 +26,7 @@ Modificar el archivo app\Config\App.php con el directorio donde tienes el proyec
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
 Modificar el archivo **index.php** que se copio al raiz desde public y cambiar los 2 puntos(..) por (.)
+
 	$pathsConfig = FCPATH . './app/Config/Paths.php';
 
 Copiar a la carpeta public las carpetas css y js que descargaste de **bootstrap5** https://getbootstrap.com/

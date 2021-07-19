@@ -20,7 +20,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
-**bootstrap5** esta copiado en el directorio public css y js  https://getbootstrap.com/
+**bootstrap5** esta copiado en el directorio public **css y js** que se descargo de  https://getbootstrap.com/
 
 Se elimino index.php en:
 

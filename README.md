@@ -14,7 +14,7 @@ public $default = [
 		'DBDriver' => 'MySQLi',
 		
 
-Los archivos de la carpeta public estan copiados en el directorio raíz del proyecto.
+Los archivos originales de la carpeta public estan copiados en el directorio raíz del proyecto.
 
 En el caso que cambies el nombre de tu carpeta de trabajo Modificar el archivo **app\Config\App.php** con el con el path de tu url
 

@@ -19,7 +19,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 	
-	o en el caso que lo subas a un hosting
+		o en el caso que lo subas a un hosting
 	
 	public $baseURL = 'http://tudominio.com/codeigniter/base-proyecto-cod/';
 

@@ -15,14 +15,14 @@ public $default = [
 		'database' => 'base-proyecto-cod',
 		'DBDriver' => 'MySQLi',
 		
+En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo **app\Config\App.php** con el con el path de tu url
+
+	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
 ## Explicación  breve de lo que se modifico a un proyecto original creado con composer
 
 Los archivos originales de la carpeta public estan copiados en el directorio raíz del proyecto.
 
-En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo **app\Config\App.php** con el con el path de tu url
-
-	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
 **bootstrap5** esta copiado en el directorio public **css y js** que se descargo de  https://getbootstrap.com/
 

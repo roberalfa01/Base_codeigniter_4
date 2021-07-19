@@ -18,7 +18,9 @@ public $default = [
 En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo **app\Config\App.php** con el con el path de tu url
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
+	
 	o en el caso que lo subas a un hosting
+	
 	public $baseURL = 'http://tudominio.com/codeigniter/base-proyecto-cod/';
 
 ## Explicación  breve de lo que se modificó a un proyecto original creado con composer

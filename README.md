@@ -51,14 +51,19 @@ La llamarias en tu controlador de esta manera
 
 	use App\Libraries\PHPMailer_Lib;
 
-Lo unico que tienes que cambiar en el archivo app\Libraries\**PHPMailer_Lib.php** seria
+Lo unico que tienes que cambiar en el archivo app\Libraries\**PHPMailer_Lib.php** ademas de los correos tuyos
 
 	//Server settings sirve tambien  para Servidor Godaddy
             $mail->isSMTP();                                                       
-            $mail->Host       = 'url_cpanel.secureserver.net';      //tomado de la url del cpanel 
+            $mail->Host       = 'a2xxxxxxxxx.prod.iad2.secureserver.net';      //tomado de la url de tu cpanel en el caso de godaddy 
             $mail->SMTPAuth   = false;   
 	    
-	    Esto lo consigue en el caso de Godaddy que es donde da mas problemas, de la url
+	   Host lo consigue en el caso de Godaddy que es donde da mas problemas, de la url
+	   https://a2xxxxxxxxx.prod.iad2.secureserver.net:99999/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	   en este caso el host seria a2xxxxxxxxx.prod.iad2.secureserver.net
+	   
+	   puedes ver mas en este enlace
+	   https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/
 	    
 
 # CodeIgniter 4 Application Starter

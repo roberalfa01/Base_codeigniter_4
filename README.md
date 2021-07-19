@@ -28,6 +28,8 @@ Modificar el archivo app\Config\App.php con el directorio donde tienes el proyec
 Modificar el archivo **index.php** que se copio al raiz desde public y cambiar los 2 puntos(..) por (.)
 $pathsConfig = FCPATH . './app/Config/Paths.php';
 
+Copiar a la carpeta public las carpetas css y js que descargaste de bootstrap 5 https://getbootstrap.com/
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?

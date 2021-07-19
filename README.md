@@ -2,7 +2,7 @@ Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias 
 
 Debes crear la base de datos “base-proyecto-cod” e importar la tabla de usuarios que está en el archivo **zzzbaseDatos-proyecto-cod.sql**, el nombre de la base de datos la puedes cambiar a tu gusto pero cambiando el nombre nuevo en el archivo:
 
-app\Config\Database.php
+**app\Config\Database.php**
 
 public $default = [
 

@@ -21,7 +21,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 	
 		o en el caso que lo subas a un hosting
 	
-	public $baseURL = 'http://tudominio.com/codeigniter/base-proyecto-cod/';
+	public $baseURL = 'http://tudominio.com/base-proyecto-cod/';
 
 ## Explicación  breve de lo que se modificó a un proyecto original creado con composer
 

@@ -14,19 +14,15 @@ public $default = [
 		'DBDriver' => 'MySQLi',
 		
 
-Copiar los archivos de la carpeta public al directorio raíz del proyecto.
+Los archivos de la carpeta public estan copiados en el directorio raíz del proyecto.
 
-Modificar el archivo app\Config\App.php con el directorio donde tienes el proyecto
+En el caso que cambies el nombre de tu carpeta de trabajo Modificar el archivo **app\Config\App.php** con el con el path de tu url
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 
-Modificar el archivo **index.php** que se copio al raiz desde public y cambiar los 2 puntos( .. ) por ( . )
+**bootstrap5** esta copiado en el directorio public css y js  https://getbootstrap.com/
 
-	$pathsConfig = FCPATH . './app/Config/Paths.php';
-
-Copiar a la carpeta public las carpetas css y js que descargaste de **bootstrap5** https://getbootstrap.com/
-
-Eliminar index.php en:
+Se elimino index.php en:
 
 	app\Config\App.php
 	public $indexPage = 'index.php';

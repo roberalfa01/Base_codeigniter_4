@@ -20,6 +20,7 @@ public $default = [
 		
 
 Modificar el archivo app\Config\App.php con el directorio donde tienes el proyecto
+
 **public $baseURL = 'http://localhost/codeigniter/05-base-proyecto-cod/'; **
 
 

@@ -36,7 +36,7 @@ Eliminar index.php en:
 	app\Config\App.php
 	public $indexPage = 'index.php';
 	public $indexPage = '';
-	Esto se hace para eliminar el index que se ve en la url
+	Esto se hace para eliminar el index que se ve en la url es opcional
 
 
 # CodeIgniter 4 Application Starter

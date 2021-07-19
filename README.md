@@ -62,7 +62,7 @@ Lo único que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.ph
 
 	//Server settings sirve también  para Servidor Godaddy
             $mail->isSMTP();                                                       
-            $mail->Host       = 'a2xxxxxxxxx.prod.iad2.secureserver.net';      //tomado de la url de tu cpanel en el caso de godaddy 
+            $mail->Host       = 'a2xxxxxxxxx.prod.iad2.secureserver.net';  //tomado de la url de tu cpanel en el caso de godaddy 
             $mail->SMTPAuth   = false;   
 	    
 	   Host lo consigue en el caso de Godaddy que es donde da más problemas, de la url

@@ -31,7 +31,8 @@ Se elimino index.php en:
 
 ## Instalar Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
 
-Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se deben colocar en la carpeta de proyecto **https://github.com/PHPMailer/PHPMailer**
+Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se deben colocar en la carpeta de proyecto 
+**app\ThirdParty\PHPMailer**
 
 # CodeIgniter 4 Application Starter
 

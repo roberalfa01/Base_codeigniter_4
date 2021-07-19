@@ -1,6 +1,6 @@
 Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias de formularios, login, encriptación y contraseñas(crear y comenzar session), PHPMailer 6.5 en un servidor Godaddy, te servirá de base para comenzar tus proyectos si eres principiante. Puedes modificarlo o servirte de guía para comenzar tus proyectos.
 
-[intl]Debes crear la base de datos **“base-proyecto-cod”** e importar la tabla de usuarios que está en el archivo **zzzbaseDatos-proyecto-cod.sql**, el nombre de la base de datos la puedes cambiar a tu gusto pero cambiando el nombre nuevo en el archivo:
+Debes crear la base de datos **“base-proyecto-cod”** e importar la tabla de usuarios que está en el archivo **zzzbaseDatos-proyecto-cod.sql**, el nombre de la base de datos la puedes cambiar a tu gusto pero cambiando el nombre nuevo en el archivo:
 
 **app\Config\Database.php**
 

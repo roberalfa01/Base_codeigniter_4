@@ -23,7 +23,7 @@ Copiar los archivos de la carpeta public al directorio raíz del proyecto.
 
 Modificar el archivo app\Config\App.php con el directorio donde tienes el proyecto
 
-**public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';**
+	**public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';**
 
 
 # CodeIgniter 4 Application Starter

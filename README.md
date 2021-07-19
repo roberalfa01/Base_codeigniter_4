@@ -51,7 +51,7 @@ La llamarias en tu controlador de esta manera
 
 	use App\Libraries\PHPMailer_Lib;
 
-Lo unico que tienes que cambiar en el archivo app\Libraries\**PHPMailer_Lib.php** ademas de los correos tuyos
+Lo unico que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php** ademas de los correos tuyos
 
 	//Server settings sirve tambien  para Servidor Godaddy
             $mail->isSMTP();                                                       

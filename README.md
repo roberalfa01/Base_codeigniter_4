@@ -24,7 +24,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 	public $baseURL = 'http://tudominio.com/base-proyecto-cod/';
 
 
-En el caso que subas tu proyecto(carpeta) a Produccion un hosting debes cambiar en el archivo production.php el "1" por "0" para que no se vean los errores como se ven en desarrollo. 
+En el caso que subas tu proyecto(carpeta) a Producción(hosting) debes cambiar en el archivo production.php el "1" por "0" para que no se vean los errores como se ven en desarrollo. 
 
 app\Config\Boot\production.php
 

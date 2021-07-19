@@ -43,9 +43,13 @@ Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se col
 
 	app\ThirdParty\PHPMailer
 
-Se creo un archivo PHPMailer_Lib.php en la carpeta Libraries 
+Se creo un archivo PHPMailer_Lib.php en la carpeta Libraries que es el que se puede llamar desde cualquier controlador para enviar el correo
 
 	app\Libraries\PHPMailer_Lib.php
+
+La llamarias en tu controlador de esta manera
+
+	use App\Libraries\PHPMailer_Lib;
 
 # CodeIgniter 4 Application Starter
 

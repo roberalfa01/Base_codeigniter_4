@@ -7,15 +7,10 @@ Debes crear la base de datos **“base-proyecto-cod”** e importar la tabla de 
 public $default = [
 
 		'DSN'      => '',
-		
 		'hostname' => 'localhost',
-		
 		'username' => 'root',
-		
 		'password' => '',
-		
 		'database' => 'base-proyecto-cod',
-		
 		'DBDriver' => 'MySQLi',
 		
 

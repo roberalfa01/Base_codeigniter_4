@@ -1,4 +1,4 @@
-Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias de formularios, login, PHPMailer 6.5 en un servidor Godaddy, te servirá de base para comenzar tus proyectos si eres principiante. Puedes modificarlo o servirte de guía para tus proyectos.
+Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias de formularios, login, PHPMailer 6.5 en un servidor Godaddy, te servirá de base para comenzar tus proyectos si eres principiante. Puedes modificarlo o servirte de guía para comenzar tus proyectos.
 
 # CodeIgniter 4 Application Starter
 

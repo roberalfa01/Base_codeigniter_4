@@ -43,6 +43,9 @@ Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se col
 
 	app\ThirdParty\PHPMailer
 
+Se creo un archivo PHPMailer_Lib.php en la carpeta Libraries 
+	app\Libraries\PHPMailer_Lib.php
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?

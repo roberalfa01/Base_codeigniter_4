@@ -1,4 +1,4 @@
-Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias de formularios, login, encriptación y contraseñas(crear y comenzar session), PHPMailer 6.5 configurado también en un servidor Godaddy. Te servirá de base para comenzar tus proyectos si eres principiante. Puedes modificarlo o servirte de guía para comenzar tus proyectos.
+Proyecto base para configurar Codeigniter 4 con Bootstrap5, validaciones varias de formularios, login, encriptación y contraseñas(crear y comenzar sesión), PHPMailer 6.5 configurado también en un servidor Godaddy. Te servirá de base para comenzar tus proyectos si eres principiante. Puedes modificarlo o servirte de guía para comenzar tus proyectos.
 
 ## Usando el proyecto base
 
@@ -15,7 +15,7 @@ public $default = [
 		'database' => 'base-proyecto-cod',
 		'DBDriver' => 'MySQLi',
 		
-En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo **app\Config\App.php** con el con el path de tu url
+En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo **app\Config\App.php** con el path de tu url
 
 	public $baseURL = 'http://localhost/codeigniter/base-proyecto-cod/';
 	
@@ -37,7 +37,7 @@ Los archivos originales de la carpeta public se  copiaron en el directorio raíz
 
 **bootstrap5** esta copiado en el directorio public **css y js** que se descargo de  https://getbootstrap.com/
 
-Se elimino index.php en:
+Se eliminó index.php en:
 
 	app\Config\App.php
 	public $indexPage = 'index.php';
@@ -50,26 +50,26 @@ Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se col
 
 	app\ThirdParty\PHPMailer
 
-Se creo un archivo PHPMailer_Lib.php en la carpeta Libraries que es el que se puede llamar desde cualquier controlador para enviar el correo
+Se creó un archivo PHPMailer_Lib.php en la carpeta Libraries que es el que se puede llamar desde cualquier controlador para enviar el correo
 
 	app\Libraries\PHPMailer_Lib.php
 
-La llamarias en tu controlador de esta manera
+Lo llamarías en tu controlador de esta manera
 
 	use App\Libraries\PHPMailer_Lib;
 
-Lo unico que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php** ademas de los correos tuyos es:
+Lo único que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php** además de los correos tuyos es:
 
 	//Server settings sirve tambien  para Servidor Godaddy
             $mail->isSMTP();                                                       
             $mail->Host       = 'a2xxxxxxxxx.prod.iad2.secureserver.net';      //tomado de la url de tu cpanel en el caso de godaddy 
             $mail->SMTPAuth   = false;   
 	    
-	   Host lo consigue en el caso de Godaddy que es donde da mas problemas, de la url
+	   Host lo consigue en el caso de Godaddy que es donde da más problemas, de la url
 	   https://a2xxxxxxxxx.prod.iad2.secureserver.net:99999/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 	   en este caso el host seria a2xxxxxxxxx.prod.iad2.secureserver.net
 	   
- puedes ver mas en este enlace
+ puedes ver más en este enlace
  
 https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/
 	    

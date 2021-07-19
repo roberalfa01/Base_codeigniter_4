@@ -25,7 +25,7 @@ En el caso que cambies el nombre de tu carpeta de trabajo, modificar el archivo 
 
 ## Explicación  breve de lo que se modificó a un proyecto original creado con composer
 
-Los archivos originales de la carpeta public estan copiados en el directorio raíz del proyecto.
+Los archivos originales de la carpeta public se  copiaron en el directorio raíz del proyecto.
 
 
 **bootstrap5** esta copiado en el directorio public **css y js** que se descargo de  https://getbootstrap.com/
@@ -37,9 +37,9 @@ Se elimino index.php en:
 	public $indexPage = '';
 	Esto se hace para eliminar el index que se ve en la url es opcional
 
-## Instalar Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
+## Phpmailer 6.5 en codeigniter4 funciona también en hosting Godaddy
 
-Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se deben colocar en la carpeta de proyecto 
+Las carpetas que se descargaron de https://github.com/PHPMailer/PHPMailer se colocaron en la carpeta de proyecto 
 
 	app\ThirdParty\PHPMailer
 

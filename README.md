@@ -31,6 +31,13 @@ Modificar el archivo **index.php** que se copio al raiz desde public y cambiar l
 
 Copiar a la carpeta public las carpetas css y js que descargaste de **bootstrap5** https://getbootstrap.com/
 
+Eliminar index.php en
+	app\Config\App.php
+	public $indexPage = 'index.php';
+	public $indexPage = '';
+	Esto se hace para eliminar el index que se ve en la url
+
+
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?

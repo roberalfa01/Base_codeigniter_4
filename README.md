@@ -64,9 +64,8 @@ Lo unico que tienes que cambiar en el archivo app\Libraries\ **PHPMailer_Lib.php
 	   
  puedes ver mas en este enlace
  
-(https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/)
+https://www.spek-regg.com/solucion-al-configurar-correo-smtp-de-godaddy-de-cpanel-en-gmail-para-enviar-desde-tu-propio-correo-de-tu-dominio/
 	    
-
 # CodeIgniter 4 Application Starter
 
 ## What is CodeIgniter?
